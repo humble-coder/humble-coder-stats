@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mark A. Brown (aka Humble Coder)</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <script src="js/vendor/modernizr.js"></script>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/fastclick.js"></script>
+    <script src="js/foundation/foundation.js"></script>
+    <script src="js/foundation/foundation.slider.js"></script>
+    <script src="js/foundation/foundation.dropdown.js"></script>
+  </head>
+  <body>
+
+  	<div class="row">
+      <div class="small-12 columns">
+        <h3><span id="name">Mark's Title</span>: <span id="description"></span></h3>
+        <span id="instructions">(Mess with the bars to get your tech title!)</span>
+      </div>
+    </div>
+    <br>
+
+    <div class="row">
+      <div class="small-10 columns">
+        <span>HTML/CSS:  <span id="html-css-attr"></span></span> 
+        <div id="html-css" class="range-slider radius"  data-slider data-options="display_selector: #html-css-attr;">
+          <span class="range-slider-handle" role="slider" tabindex="0"></span>
+          <span class="range-slider-active-segment"></span>
+          <input type="hidden">
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="small-10 columns">
+        <span>JavaScript:  <span id="javaScript-attr"></span></span>
+        <div id="javaScript" class="range-slider radius" data-slider data-options="display_selector: #javaScript-attr;">
+          <span class="range-slider-handle" role="slider" tabindex="0"></span>
+          <span class="range-slider-active-segment"></span>
+          <input type="hidden">
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="small-10 columns">
+        <span>Ruby:  <span id="ruby-attr"></span></span>
+        <div id="ruby" class="range-slider radius" data-slider data-options="display_selector: #ruby-attr;">
+          <span class="range-slider-handle" role="slider" tabindex="0"></span>
+          <span class="range-slider-active-segment"></span>
+          <input type="hidden">
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="small-10 columns">
+        <span>PHP:  <span id="php-attr"></span></span>
+        <div id="php" class="range-slider radius" data-slider data-options="display_selector: #php-attr;">
+          <span class="range-slider-handle" role="slider" tabindex="0"></span>
+          <span class="range-slider-active-segment"></span>
+          <input type="hidden">
+        </div>
+      </div>
+    </div>
+
+    <br>
+    <div class="row">
+      <div class="small-6 columns">
+        <ul>
+          <li><a href="tel:845.853.6256">Call Mark</a></li>
+          <li><a href="mailto:mark-a-brown@live.com">Email Mark</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <script>$(document).foundation();</script>
+    <script src="js/library/calculate_skills.js"></script>
+    <script src="js/library/set_sliders.js"></script>
+
+
+  </body>
+</html>
